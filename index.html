@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="block-body">
+
+
+    <header>
+
+
+        <div class="logo">
+            <a href="index.html">
+                <span class="use">USE</span>-<span class="web">Menu</span>
+            </a>
+            <p>Пример меню</p>
+        </div>
+
+
+        <div class="top-menu">
+            <ul>
+                <li><a class="clickMenu" href="#">Темы
+                    <span class="down">▼</span>
+                    <span class="up">▲</span>
+                </a></li>
+                <li><a href="#">Видеоуроки</a></li>
+                <li><a href="#">Об авторе</a></li>
+                <li><a href="#">Обратная связь</a></li>
+            </ul>
+            <div class="visibleMenu">
+                <div class="visibleMenu_weight">
+                    <div class="subMenu">
+                        <p class="p-title">Уроки JQUERY</p>
+                        <ul>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                        </ul>
+
+
+                    </div>
+
+                    <div class="subMenu">
+                        <p class="p-title">Уроки по CSS</p>
+                        <ul>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="subMenu">
+                        <p class="p-title">Уроки по HTML</p>
+                        <ul>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="subMenu">
+                        <p class="p-title">Уроки по PHP</p>
+                        <ul>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                            <li><a href="#">Уроки</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="block-top-auth">
+            <div class="button js-button-campaign flex_center button_yellow">Вход</div>
+            <div class="button js-button-campaign flex_center button_yellow">Регистрация</div>
+        </div>
+
+    </header>
+
+    <div id="block-content"></div>
+
+</div>
+<div class="overlay js-overlay-campaign">
+    <div class="popup js-popup-campaign">
+        <div class="popup__title">Вход/Регистрация</div>
+        <hr class="popup__hr">
+        <form class="popup__form">
+            <input placeholder="Имя" type="text" name="name" value="" class="popup__input_widht popup__input_height"/>
+            <input placeholder="Телефон" type="phone" name="phone" value="" class="popup__input_widht popup__input_height"/>
+            <input placeholder="Email" type="text" name="email" value="" class="popup__input_widht popup__input_height"/>
+            <input placeholder="enter" type="button" name="enter" value="Let's go!" class="popup__input_button"/>
+        </form>
+        <div class="close-popup js-close-campaign"></div>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
